@@ -64,16 +64,16 @@ Isometric views of the fully assembled design showing all functional components:
 
 The design was successfully printed on a Prusa Tarantula printer and tested in real-world conditions:
 
-![Prototype Printing](images/prototype_printing.png)
+![Prototype Printing](images/prototype_printing.jpg)
 *Prusa Tarantula in action — printing the clamp on PLA material*
 
-![Prototype Side View](images/prototype_side.png)
+![Prototype Side View](images/prototype_side.jpg)
 *Completed print showing the threaded bolt and overall assembly*
 
-![Prototype Detail](images/prototype_detail.png)
+![Prototype Detail](images/prototype_detail.jpg)
 *Close-up of the screw mechanism and hook connector*
 
-![Phone Stand Test](images/prototype_phone_stand.png)
+![Phone Stand Test](images/prototype_phone_stand.jpg)
 *Functional test — smartphone mounted securely in the clamp notch*
 
 ## Design Philosophy
@@ -86,12 +86,11 @@ This project applies three key principles:
 
 ## Files Included
 
-- `clamp_assembly.step` — Complete assembly file (Fusion 360 export) — CAD model for reference and further iteration
-- `glove_body_dispenser.step` — Main clamp body component
+- `clamp_assembly.step` — Complete CAD assembly (Fusion 360 export)
 
 ## Getting Started
 
-1. **View the design:** Open the STEP files in Fusion 360, FreeCAD, or any STEP viewer
+1. **View the design:** Open the STEP file in Fusion 360, FreeCAD, or any STEP viewer
 2. **Print:** Export to STL format and slice on your preferred slicer (Cura, PrusaSlicer). Recommended settings:
    - Layer height: 0.2 mm
    - Infill: 20% (gyroid or grid)
@@ -114,7 +113,7 @@ This project was completed as part of a hackathon focused on practical product d
 
 ---
 
-**Questions?** This project demonstrates competency in CAD modeling, design for manufacturing, and iterative prototyping. Improvements in future iterations might include:
+**Possible improvements for future iterations:**
 - Refined print orientation for strength
 - Tolerance testing on various table thicknesses
 - Ergonomic redesign of the phone slot
